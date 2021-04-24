@@ -18,7 +18,15 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script></body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/CSSRulePlugin.min.js" integrity="sha512-0bzaetZStCnsUgbCtGVxftzF/L32PNOnrMlYLXwBOKl8cUjTSSDfJVyyJsNwGoI0iE0WUqni2eEfO35kJjFj5g==" crossorigin="anonymous"></script>
-  
+    <script type="module">
+
+        // Find the latest version by visiting https://unpkg.com/three. The URL will
+        // redirect to the newest stable release.
+        import * as THREE from 'https://unpkg.com/three/build/three.module.js';
+      
+        const scene = new THREE.Scene();
+      
+      </script>
   <script>
 
     const content = CSSRulePlugin.getRule('.content:before')
